@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_page"
+    app:startDestination="@id/frgFirst2">
+    <fragment
+        android:id="@+id/frgFirst2"
+        android:name="com.erif.fragmentnavigationdemo.fragments.FrgFirst"
+        android:label="frg_first"
+        tools:layout="@layout/frg_first" >
+        <action
+            android:id="@+id/nav_action_frg1_to_frg2"
+            app:destination="@id/frgSeconds"
+            app:enterAnim="@anim/anim_frg_enter"
+            app:exitAnim="@anim/anim_frg_exit"
+            app:popEnterAnim="@anim/anim_frg_enter_pop"
+            app:popExitAnim="@anim/anim_frg_exit_pop" />
+    </fragment>
+    <fragment
+        android:id="@+id/frgSeconds"
+        android:name="com.erif.fragmentnavigationdemo.fragments.FrgSeconds"
+        android:label="frg_seconds"
+        tools:layout="@layout/frg_seconds" />
+</navigation>
