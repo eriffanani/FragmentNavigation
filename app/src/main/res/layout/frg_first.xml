@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".fragments.FrgFirst"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="#F4F4F4">
+
+    <com.erif.fragmentnavigationdemo.CardViewVoucher
+        android:id="@+id/cardVoucher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/img_voucher"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:title="Ini Adalah Voucher Terbaru"
+        android:subtitle="Ini adalah deskripsinya"/>
 
     <Button
         android:id="@+id/frg_first_btnOpen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Open Seconds Page"/>
+        android:text="Open Seconds Page"
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

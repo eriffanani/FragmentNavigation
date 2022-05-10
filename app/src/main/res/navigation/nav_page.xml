@@ -12,10 +12,10 @@
         <action
             android:id="@+id/nav_action_frg1_to_frg2"
             app:destination="@id/frgSeconds"
-            app:enterAnim="@anim/anim_frg_enter"
-            app:exitAnim="@anim/anim_frg_exit"
-            app:popEnterAnim="@anim/anim_frg_enter_pop"
-            app:popExitAnim="@anim/anim_frg_exit_pop" />
+            app:enterAnim="@anim/anim_nav_enter"
+            app:exitAnim="@anim/anim_nav_exit"
+            app:popEnterAnim="@anim/anim_nav_enter_pop"
+            app:popExitAnim="@anim/anim_nav_exit_pop" />
     </fragment>
     <fragment
         android:id="@+id/frgSeconds"

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="XVoucherView">
+        <attr name="android:src"/>
+        <attr name="android:title"/>
+        <attr name="android:subtitle"/>
+    </declare-styleable>
+</resources>
